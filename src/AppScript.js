@@ -108,12 +108,6 @@ export default {
       this.questions = this.questions.sort(() => Math.random() - 0.5);
     },
 
-    mounted() {
-      console.log("Oyun başlatılıyor...");
-      this.shuffleQuestions(); // Soruları karıştır
-      this.loadQuestion(); // İlk soruyu yükle
-    },
-
     selectAnswer(option) {
       this.isAnswered = true;
       this.stopTimer();
