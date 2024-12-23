@@ -1,0 +1,26 @@
+.border-blue {
+    border: 5px solid #23486e;
+    border-radius: 15px;
+  }
+  .text-success {
+    color: #4d0fc2;
+    font-weight: bold;
+  }
+  .text-warning {
+    color: #0da031;
+    font-weight: bold;
+  }
+  .text-danger {
+    color: #e40d23a1;
+    font-weight: bold;
+  }
+
+  .bg-blue {
+    background-color: #1a6cc4 !important;
+  }
+  .text-white {
+    color: #4d0707;
+  }
+  .display-4 {
+    font-size: 2.5rem;
+  }
